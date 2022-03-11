@@ -1,0 +1,104 @@
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Smooch Sans", sans-serif;
+  line-height: 1.4;
+  background-color: #010824;
+}
+
+/*
+body's colors
+59, 55, 176 - mov
+28, 81, 161 - albastru
+37, 37, 101 - albastru inchis
+139, 42, 194 - roz
+249, 201, 253 - roz deschis
+75, 51, 163 - mov inchis
+161, 91, 226 - mov deschis
+*/
+header {
+  height: 45vh;
+  padding-top: 1em;
+  border-bottom: solid 2px white;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+header span {
+  position: absolute;
+  content: "";
+}
+header #bgroundH1 {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  backdrop-filter: blur(4px);
+}
+header #bgroundH2 {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  background-image: radial-gradient(circle at 31% 83%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 8%, transparent 8%, transparent 92%), radial-gradient(circle at 54% 21%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 8%, transparent 8%, transparent 92%), radial-gradient(circle at 68% 13%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 6%, transparent 6%, transparent 94%), radial-gradient(circle at 30% 64%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 6%, transparent 6%, transparent 94%), radial-gradient(circle at 51% 96%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 6%, transparent 6%, transparent 94%), radial-gradient(circle at 40% 16%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 6%, transparent 6%, transparent 94%), radial-gradient(circle at 75% 47%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 6%, transparent 6%, transparent 94%), radial-gradient(circle at 44% 44%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 4%, transparent 4%, transparent 96%), radial-gradient(circle at 10% 17%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 4%, transparent 4%, transparent 96%), radial-gradient(circle at 90% 72%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 4%, transparent 4%, transparent 96%), radial-gradient(circle at 0% 45%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 4%, transparent 4%, transparent 96%), linear-gradient(90deg, #121efe, #cb07b8);
+}
+header #bgroundH3 {
+  width: 30vw;
+  height: 15vh;
+  background-color: #0513ca;
+  bottom: 0;
+  left: -1.5em;
+  z-index: -2;
+  border-radius: 39% 61% 58% 42%/22% 74% 26% 78%;
+}
+header #bgroundH4 {
+  width: 26vw;
+  height: 13vh;
+  background-color: #d963fd;
+  top: 0;
+  left: 45%;
+  z-index: -2;
+  border-radius: 39% 61% 58% 42%/22% 74% 26% 78%;
+}
+header nav {
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+}
+header nav input {
+  width: 230px;
+  margin: 2em auto;
+  background-color: #010824;
+  font-size: 1rem;
+  border: solid 2px #49fa8c;
+  border-radius: 2em;
+  padding: 0.2em 0.65em 0.1em;
+}
+header ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+header ul li {
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+header ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+header ul li #cart {
+  color: #010824;
+  background-color: #49fa8c;
+  border-radius: 0.4em;
+  padding: 0 0.5em;
+}
+
+/*# sourceMappingURL=style.css.map */
