@@ -101,4 +101,42 @@ header ul li #cart {
   padding: 0 0.5em;
 }
 
+.mainText {
+  margin: 0 auto;
+  border: solid 1px white;
+}
+.mainText .bar {
+  display: table;
+  background-color: azure;
+  width: 50px;
+  height: 5px;
+  position: relative;
+}
+.mainText .bar:before {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  background-color: #19dbdb;
+  bottom: calc(-100% - .2em);
+  right: 0;
+}
+.mainText .bar:after {
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  background-color: azure;
+  bottom: calc(-100% - .2em - .5em);
+  right: 0;
+}
+.mainText .mainTitle {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  color: azure;
+  margin: 0;
+  text-transform: uppercase;
+}
+
 /*# sourceMappingURL=style.css.map */
