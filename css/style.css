@@ -102,22 +102,25 @@ header ul li #cart {
 }
 
 .mainText {
+  width: 300px;
   margin: 0 auto;
-  border: solid 1px white;
+  display: flex;
+  flex-direction: column;
 }
 .mainText .bar {
   display: table;
   background-color: azure;
-  width: 50px;
+  width: 100px;
   height: 5px;
   position: relative;
+  margin: 0.65em 0.2em 0 0.1em;
 }
 .mainText .bar:before {
   content: "";
   position: absolute;
   width: 80%;
   height: 100%;
-  background-color: #19dbdb;
+  background-color: #49fa8c;
   bottom: calc(-100% - .2em);
   right: 0;
 }
@@ -137,6 +140,70 @@ header ul li #cart {
   color: azure;
   margin: 0;
   text-transform: uppercase;
+}
+
+.mainT {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.mainT.up {
+  justify-content: center;
+}
+
+#bar1 {
+  grid-area: bar1;
+}
+
+#bar2 {
+  grid-area: bar2;
+}
+#bar2:before, #bar2:after {
+  left: 0;
+}
+
+#mainT1 {
+  grid-area: mainT1;
+}
+
+#mainT2 {
+  grid-area: mainT2;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.card img {
+  width: 70%;
+}
+.card span {
+  color: azure;
+}
+.card .prodName {
+  font-size: 1.4rem;
+}
+.card .rating {
+  font-size: 1.2rem;
+}
+.card .price {
+  font-size: 1.3rem;
+  color: #49fa8c;
+}
+.card .buy {
+  border: solid 2px white;
+  background: #121efe;
+  background: linear-gradient(135deg, #121efe 0%, #cb07b8 100%);
+}
+
+.intro-products {
+  padding: 1em 0.7em;
+}
+.intro-products h1 {
+  color: azure;
 }
 
 /*# sourceMappingURL=style.css.map */

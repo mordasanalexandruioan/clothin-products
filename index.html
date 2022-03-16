@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -38,17 +39,35 @@
             <input type="search" id="userSrc" placeholder="Search">
 
             <div class="mainText">
-                <span class="bar"></span>
-                <h1 class="mainTitle">Buy for u</h1>
-                <span class="bar"></span>
-                <h2 class="mainTitle">lead the world</h2>
+                <div class="mainT up">
+                    <span class="bar" id="bar1"></span>
+                    <h1 class="mainTitle" id="mainT1">Buy for u</h1>
+                </div>
+                <div class="mainT down">
+                    <h2 class="mainTitle" id="mainT2">lead the world</h2>
+                    <span class="bar" id="bar2"></span>
+                </div>
             </div>
         </nav>
     </header>
 
 
     <main>
-        <section class="intro-products"></section>
+        <section class="intro-products">
+            <h1>seasonal</h1>
+            <article>
+                <div class="card">
+                    <span class="prodName">Name</span>
+                    <img src="img/nikeShoes.png">
+                    <span class="rating">Rating</span>
+                    <span class="description">Description Lorem ipsum dolor sit amet consectetur.</span>
+                    <span class="price">Price</span>
+                    <button class="buy">Buy</button>
+                </div>
+                <div class="card"></div>
+                <div class="card"></div>
+            </article>
+        </section>
 
         <section class="products"></section>
     </main>
