@@ -20,7 +20,6 @@ body's colors
 header {
   height: 45vh;
   padding-top: 1em;
-  border-bottom: solid 2px white;
   position: relative;
   z-index: 0;
   overflow: hidden;
@@ -104,8 +103,10 @@ header ul li #cart {
 .mainText {
   width: 300px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.5fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "bar1 bar1 mainT1 mainT1" "mainT2 mainT2 mainT2 bar2";
 }
 .mainText .bar {
   display: table;
@@ -113,7 +114,7 @@ header ul li #cart {
   width: 100px;
   height: 5px;
   position: relative;
-  margin: 0.65em 0.2em 0 0.1em;
+  margin: 0.65em 0.6em 0 0;
 }
 .mainText .bar:before {
   content: "";
@@ -142,23 +143,14 @@ header ul li #cart {
   text-transform: uppercase;
 }
 
-.mainT {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
-.mainT.up {
-  justify-content: center;
-}
-
 #bar1 {
   grid-area: bar1;
+  margin-left: auto;
 }
 
 #bar2 {
   grid-area: bar2;
+  margin: 0.65em auto 0 0;
 }
 #bar2:before, #bar2:after {
   left: 0;
@@ -173,30 +165,80 @@ header ul li #cart {
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "name name" "img img" "rat pri" "descr buy";
+  grid-column-gap: 0.2em;
   width: 300px;
+  max-width: 312px;
+  margin: 0 auto 1em;
+  padding: 0.2em 0.3em;
+  background-color: #0c1431;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 0.3em;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 .card img {
   width: 70%;
+  grid-area: img;
+  margin: 1em auto;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 0.3em;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 .card span {
   color: azure;
 }
 .card .prodName {
   font-size: 1.4rem;
+  grid-area: name;
 }
 .card .rating {
   font-size: 1.2rem;
+  grid-area: rat;
+  color: #f0ff17;
+}
+.card .description {
+  grid-area: descr;
+  font-size: 1.4rem;
 }
 .card .price {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  text-align: right;
+  margin: 0 0.4em 0 0;
   color: #49fa8c;
+  grid-area: pri;
+  font-weight: 800;
 }
 .card .buy {
-  border: solid 2px white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: none;
   background: #121efe;
   background: linear-gradient(135deg, #121efe 0%, #cb07b8 100%);
+  border-radius: 0.67em;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #f0ffff;
+  grid-area: buy;
+  max-height: 50px;
+  min-height: 40px;
+  max-width: 134px;
+  margin: auto 0 auto auto;
+}
+.card .buy .icons {
+  width: 30px;
+  border: none;
+  background: none;
+  box-shadow: none;
 }
 
 .intro-products {
