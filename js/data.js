@@ -11,7 +11,17 @@ const data = [{
     {
         prodName: {
             type: "Shoes",
-            brand: "Adidas",
+            brand: "Vans",
+        },
+        picture: "img/nikeShoes.png",
+        rating: "&#9733; &#9733; &#9733; &#9733; &#9734;",
+        description: "Description Lorem ipsum dolor sit amet consectetur.",
+        price: "19.99",
+    },
+    {
+        prodName: {
+            type: "Shoes",
+            brand: "Puma",
         },
         picture: "img/nikeShoes.png",
         rating: "&#9733; &#9733; &#9733; &#9733; &#9734;",
@@ -41,17 +51,7 @@ const data = [{
     {
         prodName: {
             type: "Shoes",
-            brand: "Adidas",
-        },
-        picture: "img/nikeShoes.png",
-        rating: "&#9733; &#9733; &#9733; &#9733; &#9734;",
-        description: "Description Lorem ipsum dolor sit amet consectetur.",
-        price: "19.99",
-    },
-    {
-        prodName: {
-            type: "Shoes",
-            brand: "Adidas",
+            brand: "Puma",
         },
         picture: "img/nikeShoes.png",
         rating: "&#9733; &#9733; &#9733; &#9733; &#9734;",
@@ -121,7 +121,7 @@ const data = [{
     {
         prodName: {
             type: "Shoes",
-            brand: "Zara",
+            brand: "Asisc",
         },
         picture: "img/nikeShoes.png",
         rating: "&#9733; &#9733; &#9733; &#9733; &#9734;",
@@ -152,6 +152,16 @@ const data = [{
         prodName: {
             type: "Shoes",
             brand: "Zara",
+        },
+        picture: "img/nikeShoes.png",
+        rating: "&#9733; &#9733; &#9733; &#9733; &#9734;",
+        description: "Description Lorem ipsum dolor sit amet consectetur.",
+        price: "19.99",
+    },
+    {
+        prodName: {
+            type: "Shoes",
+            brand: "Nike",
         },
         picture: "img/nikeShoes.png",
         rating: "&#9733; &#9733; &#9733; &#9733; &#9734;",
@@ -171,17 +181,7 @@ const data = [{
     {
         prodName: {
             type: "Shoes",
-            brand: "H&M",
-        },
-        picture: "img/nikeShoes.png",
-        rating: "&#9733; &#9733; &#9733; &#9733; &#9734;",
-        description: "Description Lorem ipsum dolor sit amet consectetur.",
-        price: "19.99",
-    },
-    {
-        prodName: {
-            type: "Shoes",
-            brand: "H&M",
+            brand: "Asisc",
         },
         picture: "img/nikeShoes.png",
         rating: "&#9733; &#9733; &#9733; &#9733; &#9734;",
@@ -281,7 +281,7 @@ const data = [{
     {
         prodName: {
             type: "Shoes",
-            brand: "Vans",
+            brand: "Adidas",
         },
         picture: "img/nikeShoes.png",
         rating: "&#9733; &#9733; &#9733; &#9733; &#9734;",
@@ -331,7 +331,7 @@ const data = [{
     {
         prodName: {
             type: "Shoes",
-            brand: "Adidas",
+            brand: "Vans",
         },
         picture: "img/nikeShoes.png",
         rating: "&#9733; &#9733; &#9733; &#9733; &#9734;",
