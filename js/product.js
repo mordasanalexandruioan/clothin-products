@@ -36,13 +36,4 @@ export default class Product {
         <button class="buy">Save to <img src="img/favorite_cart_64px.png" class="icons"></button>
         </div>`
     }
-
-    // <div class="card">
-    // <span class="prodName">Nike Shoes</span>
-    // <img src="img/nikeShoes.png">
-    // <span class="rating">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
-    // <span class="description">Description Lorem ipsum dolor sit amet consectetur.</span>
-    // <span class="price">$24.99</span>
-    // <button class="buy">Save to <img src="img/favorite_cart_64px.png" class="icons"></button>
-    // </div>
 }
