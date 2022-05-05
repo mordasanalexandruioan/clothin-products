@@ -1,7 +1,7 @@
 const data = [{
         type: "Shoes",
         brand: "Adidas",
-        picture: "img/adidasShoesSnickers_t.png",
+        picture: "./img/adidasShoesSnickers_t.png",
         rating: "&#9733; &#9733; &#9733; &#9733; &#9733;",
         description: "Description Lorem ipsum dolor sit amet consectetur.",
         price: "21.99",
@@ -9,7 +9,7 @@ const data = [{
     {
         type: "T-Shirt",
         brand: "Vans",
-        picture: "img/vansTshirt_t.png",
+        picture: "./img/vansTshirt_t.png",
         rating: "&#9733; &#9733; &#9733; &#9733; &#9733;",
         description: "Description Lorem ipsum dolor sit amet consectetur.",
         price: "9.95",
@@ -17,7 +17,7 @@ const data = [{
     {
         type: "Shoes",
         brand: "Puma",
-        picture: "img/pumaShoes_t.png",
+        picture: "./img/pumaShoes_t.png",
         rating: "&#9733; &#9733; &#9733; &#9733; &#9733;",
         description: "Description Lorem ipsum dolor sit amet consectetur.",
         price: "12.45",
@@ -25,7 +25,7 @@ const data = [{
     {
         type: "Hat",
         brand: "Adidas",
-        picture: "img/adidasHat_t.png",
+        picture: "./img/adidasHat_t.png",
         rating: "&#9733; &#9733; &#9733; &#9733; &#9733;",
         description: "Description Lorem ipsum dolor sit amet consectetur.",
         price: "4.79",
@@ -33,7 +33,7 @@ const data = [{
     {
         type: "Backpack",
         brand: "Adidas",
-        picture: "img/adidasBackpack_t.png",
+        picture: "./img/adidasBackpack_t.png",
         rating: "&#9733; &#9733; &#9733; &#9733; &#9734;",
         description: "Description Lorem ipsum dolor sit amet consectetur.",
         price: "6.49",
@@ -41,7 +41,7 @@ const data = [{
     {
         type: "Tshirt",
         brand: "Puma",
-        picture: "img/pumaTshirt_t.png",
+        picture: "./img/pumaTshirt_t.png",
         rating: "&#9733; &#9733; &#9733; &#9733; &#9733;",
         description: "Description Lorem ipsum dolor sit amet consectetur.",
         price: "15.00",
@@ -49,7 +49,7 @@ const data = [{
     {
         type: "Gymbag",
         brand: "Adidas",
-        picture: "img/adidasGymBag_t.png",
+        picture: "./img/adidasGymBag_t.png",
         rating: "&#9733; &#9733; &#9733; &#9733; &#9734;",
         description: "Description Lorem ipsum dolor sit amet consectetur.",
         price: "12.99",
@@ -57,7 +57,7 @@ const data = [{
     {
         type: "Hoodie",
         brand: "H&m",
-        picture: "img/hmHoodieBoy_t.png",
+        picture: "./img/hmHoodieBoy_t.png",
         rating: "&#9733; &#9733; &#9733; &#9733; &#9733;",
         description: "Description Lorem ipsum dolor sit amet consectetur.",
         price: "27.45",

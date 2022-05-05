@@ -1,268 +1,267 @@
 body {
-    padding: 0;
-    margin: 0;
-    min-height: 100vh;
-    font-family: "Smooch Sans", sans-serif;
-    line-height: 1.4;
-    background-color: #010824;
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Smooch Sans", sans-serif;
+  line-height: 1.4;
+  background-color: #010824;
 }
 
+/*
+body's colors
+59, 55, 176 - mov
+28, 81, 161 - albastru
+37, 37, 101 - albastru inchis
+139, 42, 194 - roz
+249, 201, 253 - roz deschis
+75, 51, 163 - mov inchis
+161, 91, 226 - mov deschis
+*/
 header {
-    height: 45vh;
-    padding-top: 1em;
-    position: relative;
-    z-index: 0;
-    overflow: hidden;
+  height: 45vh;
+  padding-top: 1em;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
 }
-
 header span {
-    position: absolute;
-    content: "";
+  position: absolute;
+  content: "";
 }
-
 header #bgroundH1 {
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    backdrop-filter: blur(4px);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  backdrop-filter: blur(4px);
 }
-
 header #bgroundH2 {
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: -2;
-    background-image: radial-gradient(circle at 31% 83%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 8%, transparent 8%, transparent 92%), radial-gradient(circle at 54% 21%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 8%, transparent 8%, transparent 92%), radial-gradient(circle at 68% 13%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 6%, transparent 6%, transparent 94%), radial-gradient(circle at 30% 64%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 6%, transparent 6%, transparent 94%), radial-gradient(circle at 51% 96%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 6%, transparent 6%, transparent 94%), radial-gradient(circle at 40% 16%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 6%, transparent 6%, transparent 94%), radial-gradient(circle at 75% 47%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 6%, transparent 6%, transparent 94%), radial-gradient(circle at 44% 44%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 4%, transparent 4%, transparent 96%), radial-gradient(circle at 10% 17%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 4%, transparent 4%, transparent 96%), radial-gradient(circle at 90% 72%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 4%, transparent 4%, transparent 96%), radial-gradient(circle at 0% 45%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 4%, transparent 4%, transparent 96%), linear-gradient(90deg, #121efe, #cb07b8);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  background-image: radial-gradient(circle at 31% 83%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 8%, transparent 8%, transparent 92%), radial-gradient(circle at 54% 21%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 8%, transparent 8%, transparent 92%), radial-gradient(circle at 68% 13%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 6%, transparent 6%, transparent 94%), radial-gradient(circle at 30% 64%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 6%, transparent 6%, transparent 94%), radial-gradient(circle at 51% 96%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 6%, transparent 6%, transparent 94%), radial-gradient(circle at 40% 16%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 6%, transparent 6%, transparent 94%), radial-gradient(circle at 75% 47%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 6%, transparent 6%, transparent 94%), radial-gradient(circle at 44% 44%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 4%, transparent 4%, transparent 96%), radial-gradient(circle at 10% 17%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 4%, transparent 4%, transparent 96%), radial-gradient(circle at 90% 72%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 4%, transparent 4%, transparent 96%), radial-gradient(circle at 0% 45%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 4%, transparent 4%, transparent 96%), linear-gradient(90deg, #121efe, #cb07b8);
 }
-
 header #bgroundH3 {
-    width: 30vw;
-    height: 15vh;
-    background-color: #0513ca;
-    bottom: 0;
-    left: -1.5em;
-    z-index: -2;
-    border-radius: 39% 61% 58% 42%/22% 74% 26% 78%;
+  width: 30vw;
+  height: 15vh;
+  background-color: #0513ca;
+  bottom: 0;
+  left: -1.5em;
+  z-index: -2;
+  border-radius: 39% 61% 58% 42%/22% 74% 26% 78%;
 }
-
 header #bgroundH4 {
-    width: 26vw;
-    height: 13vh;
-    background-color: #d963fd;
-    top: 0;
-    left: 45%;
-    z-index: -2;
-    border-radius: 39% 61% 58% 42%/22% 74% 26% 78%;
+  width: 26vw;
+  height: 13vh;
+  background-color: #d963fd;
+  top: 0;
+  left: 45%;
+  z-index: -2;
+  border-radius: 39% 61% 58% 42%/22% 74% 26% 78%;
 }
-
 header nav {
-    height: 35vh;
-    display: flex;
-    flex-direction: column;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
 }
-
 header nav input {
-    width: 230px;
-    margin: 2em auto;
-    background-color: #010824;
-    font-size: 1rem;
-    border: solid 2px #49fa8c;
-    border-radius: 2em;
-    padding: 0.2em 0.65em 0.1em;
+  width: 230px;
+  margin: 2em auto;
+  background-color: #010824;
+  font-size: 1rem;
+  border: solid 2px #49fa8c;
+  border-radius: 2em;
+  padding: 0.2em 0.65em 0.1em;
 }
-
 header ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
-
 header ul li {
-    font-size: 1.3rem;
-    font-weight: 600;
-    text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-transform: uppercase;
 }
-
 header ul li a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
-
 header ul li #cart {
-    color: #010824;
-    background-color: #49fa8c;
-    border-radius: 0.4em;
-    padding: 0 0.5em;
+  color: #010824;
+  background-color: #49fa8c;
+  border-radius: 0.4em;
+  padding: 0 0.5em;
 }
 
 .mainText {
-    width: 300px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 0.5fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: "bar1 bar1 mainT1 mainT1" "mainT2 mainT2 mainT2 bar2";
+  width: 300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.5fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "bar1 bar1 mainT1 mainT1" "mainT2 mainT2 mainT2 bar2";
 }
-
 .mainText .bar {
-    display: table;
-    background-color: azure;
-    width: 100px;
-    height: 5px;
-    position: relative;
-    margin: 0.65em 0.6em 0 0;
+  display: table;
+  background-color: azure;
+  width: 100px;
+  height: 5px;
+  position: relative;
+  margin: 0.65em 0.6em 0 0;
 }
-
 .mainText .bar:before {
-    content: "";
-    position: absolute;
-    width: 80%;
-    height: 100%;
-    background-color: #49fa8c;
-    bottom: calc(-100% - .2em);
-    right: 0;
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  background-color: #49fa8c;
+  bottom: calc(-100% - .2em);
+  right: 0;
 }
-
 .mainText .bar:after {
-    content: "";
-    position: absolute;
-    width: 60%;
-    height: 100%;
-    background-color: azure;
-    bottom: calc(-100% - .2em - .5em);
-    right: 0;
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  background-color: azure;
+  bottom: calc(-100% - .2em - .5em);
+  right: 0;
 }
-
 .mainText .mainTitle {
-    font-size: 2rem;
-    font-weight: 800;
-    letter-spacing: 0.07em;
-    color: azure;
-    margin: 0;
-    text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  color: azure;
+  margin: 0;
+  text-transform: uppercase;
 }
 
 #bar1 {
-    grid-area: bar1;
-    margin-left: auto;
+  grid-area: bar1;
+  margin-left: auto;
 }
 
 #bar2 {
-    grid-area: bar2;
-    margin: 0.65em auto 0 0;
+  grid-area: bar2;
+  margin: 0.65em auto 0 0;
 }
-
-#bar2:before,
-#bar2:after {
-    left: 0;
+#bar2:before, #bar2:after {
+  left: 0;
 }
 
 #mainT1 {
-    grid-area: mainT1;
+  grid-area: mainT1;
 }
 
 #mainT2 {
-    grid-area: mainT2;
+  grid-area: mainT2;
 }
 
 .card {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(3, auto);
-    grid-template-areas: "name name" "img img" "rat pri" "descr buy";
-    grid-column-gap: 0.2em;
-    width: 300px;
-    max-width: 312px;
-    margin: 0 auto 1em;
-    padding: 0.2em 0.3em;
-    background-color: #0c1431;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    border-radius: 0.3em;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "name name" "img img" "rat pri" "descr buy";
+  grid-column-gap: 0.2em;
+  width: 300px;
+  max-width: 312px;
+  margin: 0 auto 1em;
+  padding: 0.2em 0.3em;
+  background-color: #0c1431;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 0.3em;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
-
 .card img {
-    width: 70%;
-    grid-area: img;
-    margin: 1em auto;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    border-radius: 0.3em;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  width: 70%;
+  grid-area: img;
+  margin: 1em auto;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 0.3em;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
-
 .card span {
-    color: azure;
+  color: azure;
 }
-
 .card .prodName {
-    font-size: 1.4rem;
-    grid-area: name;
+  font-size: 1.4rem;
+  grid-area: name;
 }
-
 .card .rating {
-    font-size: 1.2rem;
-    grid-area: rat;
-    color: #f0ff17;
+  font-size: 1.2rem;
+  grid-area: rat;
+  color: #f0ff17;
 }
-
 .card .description {
-    grid-area: descr;
-    font-size: 1.4rem;
+  grid-area: descr;
+  font-size: 1.4rem;
 }
-
 .card .price {
-    font-size: 1.5rem;
-    text-align: right;
-    margin: 0 0.4em 0 0;
-    color: #49fa8c;
-    grid-area: pri;
-    font-weight: 800;
+  font-size: 1.5rem;
+  text-align: right;
+  margin: 0 0.4em 0 0;
+  color: #49fa8c;
+  grid-area: pri;
+  font-weight: 800;
 }
-
 .card .buy {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border: none;
-    background: #121efe;
-    background: linear-gradient(135deg, #121efe 0%, #cb07b8 100%);
-    border-radius: 0.67em;
-    font-size: 1.3rem;
-    font-weight: 600;
-    color: #f0ffff;
-    grid-area: buy;
-    max-height: 50px;
-    min-height: 40px;
-    max-width: 134px;
-    margin: auto 0 auto auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: none;
+  background: #121efe;
+  background: linear-gradient(135deg, #121efe 0%, #cb07b8 100%);
+  border-radius: 0.67em;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #f0ffff;
+  grid-area: buy;
+  max-height: 50px;
+  min-height: 40px;
+  max-width: 134px;
+  margin: auto 0 auto auto;
 }
-
 .card .buy .icons {
-    width: 30px;
-    border: none;
-    background: none;
-    box-shadow: none;
+  width: 30px;
+  border: none;
+  background: none;
+  box-shadow: none;
 }
 
 .intro-products {
-    padding: 1em 0.7em;
+  padding: 1em 0.7em;
 }
-
 .intro-products h1 {
-    color: azure;
+  color: rgba(240, 255, 255, 0.835);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-size: 3.6rem;
+  margin: 0;
 }
 
+.products {
+  padding: 1.2em 0.7em;
+}
+.products h2 {
+  color: rgba(240, 255, 255, 0.835);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-size: 3.6rem;
+  margin: 0 0 0.7em 0;
+  line-height: 0.75;
+}
 
 /*# sourceMappingURL=style.css.map */
